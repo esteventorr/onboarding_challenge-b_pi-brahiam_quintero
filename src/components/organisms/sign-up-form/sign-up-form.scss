@@ -1,0 +1,10 @@
+.sign-up-form {
+  &__categories-list {
+    display: flex; 
+    flex-direction: column;
+    align-items: start;    
+    & label {
+        margin: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.form {
+  border-radius: 5px;
+  border: 2px solid var(--darkGrayishBlue200);
+
+  & pichincha-input {
+    display: block;
+    text-align: left;
+  }
+
+  & > :not(:last-child) {
+    margin: 20px;
+  }
+
+  &__footer {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkGrayishBlue200);
+
+    & pichincha-button[color="primary"] {
+      width: 200px;
+    }
+
+    & pichincha-link {
+      text-decoration: underline;
+      text-decoration-color: var(--info);
+    }
+  }
+}

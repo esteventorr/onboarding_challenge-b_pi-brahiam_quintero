@@ -1,0 +1,956 @@
+[
+  [
+    "p-e2e84bc8",
+    [
+      [
+        1,
+        "pichincha-input-datepicker",
+        {
+          "idElement": [1, "id-element"],
+          "input_placeholder": [1025],
+          "input_width": [1025],
+          "range_mode": [1028],
+          "dayu": [1026],
+          "monthu": [1026],
+          "yearu": [1026],
+          "dayf": [1026],
+          "monthf": [1026],
+          "yearf": [1026],
+          "daycalendar": [1040],
+          "lock_before_today": [1028],
+          "lock_after_today": [1028],
+          "stop_with_days": [1028],
+          "stop_with_days_future": [1028],
+          "stopdays": [1026],
+          "stopdaysFuture": [1026, "stopdays-future"],
+          "minYear": [1026, "min-year"],
+          "maxYear": [1026, "max-year"],
+          "dateFrom": [1025, "date-from"],
+          "dateUntil": [1025, "date-until"],
+          "state": [1537],
+          "locales": [1025],
+          "includeLegend": [4, "include-legend"],
+          "closeOnClick": [1028, "close-on-click"],
+          "clickTimeoutCloseOnClick": [2, "click-timeout-close-on-click"],
+          "defaultDate": [1025, "default-date"],
+          "controlScrollToBottom": [1028, "control-scroll-to-bottom"],
+          "enableClose": [1028, "enable-close"],
+          "disableWeekends": [1028, "disable-weekends"],
+          "disabledDays": [1040],
+          "disabledRange": [1040],
+          "openDatePicker": [32],
+          "showCloseDatePicker": [32],
+          "newyear": [32],
+          "newmonth": [32],
+          "newmonthup": [32],
+          "newyearup": [32],
+          "lastmonth": [32],
+          "lastyear": [32],
+          "myClass": [32]
+        },
+        [[8, "click", "checkForClickOutside"]]
+      ],
+      [
+        1,
+        "pichincha-button-icon",
+        {
+          "color": [1],
+          "disabled": [4],
+          "href": [1],
+          "type": [1],
+          "idelement": [1],
+          "loading": [4],
+          "size": [1],
+          "tabIndexInner": [2, "tab-index-inner"],
+          "value": [1],
+          "iconName": [1, "icon-name"],
+          "iconNameRight": [1, "icon-name-right"],
+          "iconType": [1, "icon-type"],
+          "onlyIcon": [4, "only-icon"]
+        }
+      ],
+      [
+        1,
+        "pichincha-button",
+        {
+          "color": [1],
+          "disabled": [4],
+          "href": [1],
+          "idelement": [1],
+          "type": [1],
+          "loading": [4],
+          "size": [1],
+          "tabIndexInner": [2, "tab-index-inner"],
+          "value": [1]
+        }
+      ],
+      [
+        1,
+        "pichincha-input",
+        {
+          "idElement": [1, "id-element"],
+          "nameElement": [1, "name-element"],
+          "type": [1],
+          "hidePasswordText": [1, "hide-password-text"],
+          "showPasswordText": [1, "show-password-text"],
+          "showPasswordToggle": [4, "show-password-toggle"],
+          "label": [1],
+          "placeholder": [1],
+          "normalHelper": [1, "normal-helper"],
+          "errorHelper": [1, "error-helper"],
+          "value": [1025],
+          "state": [1025],
+          "size": [1],
+          "fullWidth": [4, "full-width"],
+          "maxLength": [2, "max-length"],
+          "filterRegex": [1, "filter-regex"],
+          "regexValidationMode": [1, "regex-validation-mode"],
+          "tabIndexElement": [2, "tab-index-element"],
+          "showMaxLength": [4, "show-max-length"],
+          "showIconStatus": [4, "show-icon-status"],
+          "customIcon": [1, "custom-icon"],
+          "customIconColor": [1, "custom-icon-color"],
+          "customIconSize": [1, "custom-icon-size"],
+          "customIconType": [1, "custom-icon-type"],
+          "leftIcon": [1, "left-icon"],
+          "leftIconColor": [1, "left-icon-color"],
+          "leftIconSize": [1, "left-icon-size"],
+          "leftIconType": [1, "left-icon-type"],
+          "leftIconTooltip": [4, "left-icon-tooltip"],
+          "leftIconTooltipString": [1, "left-icon-tooltip-string"],
+          "controlEvent": [4, "control-event"],
+          "autofocus": [4],
+          "floatingLabel": [4, "floating-label"],
+          "tooltip": [1025],
+          "tooltipBody": [8, "tooltip-body"],
+          "showTooltipOnChange": [4, "show-tooltip-on-change"],
+          "hideNumberHandles": [4, "hide-number-handles"],
+          "autoComplete": [4, "auto-complete"],
+          "showAutocompleteBox": [4, "show-autocomplete-box"],
+          "autocompleteOptions": [1040],
+          "click_timeout_ms": [2],
+          "autocompleteOpen": [1028, "autocomplete-open"],
+          "dropdownMode": [4, "dropdown-mode"],
+          "list_option_align": [1],
+          "primary_color_weight": [1],
+          "primary_color": [1],
+          "class": [1],
+          "inputmode": [1],
+          "pattern": [1],
+          "min": [2],
+          "inline_styles": [16],
+          "input_wrapper_inline_styles": [16],
+          "options_list_width": [1],
+          "tooltipPosition": [1, "tooltip-position"],
+          "maxLengthActive": [32],
+          "showInputAsText": [32],
+          "showTooltipManually": [32],
+          "isActive": [32],
+          "valueTemp": [32],
+          "caretTemp": [32],
+          "optionSelected": [32],
+          "atLeastOneResult": [32],
+          "valueItemSelected": [32]
+        },
+        [[8, "click", "checkForClickOutside"]]
+      ],
+      [
+        1,
+        "pichincha-select",
+        {
+          "inputContainerInlineStyles": [16],
+          "inputChildInlineStyles": [16],
+          "idElement": [1, "id-element"],
+          "state": [1537],
+          "size": [1537],
+          "placeholder": [1],
+          "items": [1040],
+          "border": [4],
+          "controls": [4],
+          "primary_color": [1],
+          "list_option_align": [1],
+          "primary_color_weight": [1],
+          "show_check_in_list": [4],
+          "show_options_number": [2],
+          "options_list_width": [1],
+          "click_timeout_ms": [2],
+          "opacity": [4],
+          "show_reset_button": [4],
+          "visibleItemsWithControls": [32],
+          "valueItemSelected": [32],
+          "open": [32]
+        }
+      ],
+      [
+        1,
+        "pichincha-spinner",
+        { "background": [1], "border": [2], "color": [1], "size": [2] }
+      ],
+      [
+        1,
+        "pichincha-tooltip",
+        {
+          "position": [1],
+          "showManually": [4, "show-manually"],
+          "text": [1],
+          "textAlign": [1, "text-align"]
+        }
+      ],
+      [
+        1,
+        "pichincha-icon",
+        {
+          "color": [513],
+          "weight_color": [1],
+          "inline_styles": [16],
+          "type": [1],
+          "size": [1]
+        }
+      ],
+      [
+        1,
+        "pichincha-typography",
+        {
+          "variant": [1],
+          "color": [1],
+          "inline_styles": [16],
+          "weight": [1],
+          "fontSize": [1, "font-size"],
+          "weight_color": [1],
+          "align": [1]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-32a7b396",
+    [
+      [
+        1,
+        "pichincha-otp",
+        {
+          "boxs": [2],
+          "timer": [1026],
+          "titleOtp": [1, "title-otp"],
+          "disabled": [4],
+          "errorAlertText": [1, "error-alert-text"],
+          "nextButtonLabel": [1, "next-button-label"],
+          "backButtonLabel": [1, "back-button-label"],
+          "contactDescription": [1, "contact-description"],
+          "contactHelpLabel": [1, "contact-help-label"],
+          "textShowCode": [1, "text-show-code"],
+          "textHideCode": [1, "text-hide-code"],
+          "textResendCode": [1, "text-resend-code"],
+          "textResendingCode": [1, "text-resending-code"],
+          "textCodeSent": [1, "text-code-sent"],
+          "textShowHideCode": [1025, "text-show-hide-code"],
+          "timerText": [1, "timer-text"],
+          "description": [1],
+          "typePassword": [4, "type-password"],
+          "stateButton": [1, "state-button"],
+          "status": [1],
+          "errorCode": [1, "error-code"],
+          "stateResend": [1, "state-resend"],
+          "hideBackButton": [4, "hide-back-button"],
+          "fullWidth": [4, "full-width"],
+          "showInfo": [1028, "show-info"],
+          "inputsOtpState": [32],
+          "showingCode": [32],
+          "inputType": [32],
+          "otpValue": [32],
+          "currentStatus": [32],
+          "clearOtp": [32],
+          "showAlert": [32],
+          "time": [32]
+        },
+        [[0, "eventChangeInputOtp", "changeInput"]]
+      ]
+    ]
+  ],
+  [
+    "p-b61d606a",
+    [
+      [
+        1,
+        "pichincha-softoken",
+        {
+          "boxs": [2],
+          "titleOtp": [1, "title-otp"],
+          "disabled": [4],
+          "errorAlertText": [1, "error-alert-text"],
+          "nextButtonLabel": [1, "next-button-label"],
+          "backButtonLabel": [1, "back-button-label"],
+          "contactDescription": [1, "contact-description"],
+          "contactHelpLabel": [1, "contact-help-label"],
+          "textShowCode": [1, "text-show-code"],
+          "textHideCode": [1, "text-hide-code"],
+          "textShowHideCode": [1025, "text-show-hide-code"],
+          "description": [1],
+          "typePassword": [4, "type-password"],
+          "stateButton": [1, "state-button"],
+          "status": [1],
+          "errorCode": [1, "error-code"],
+          "hideBackButton": [4, "hide-back-button"],
+          "fullWidth": [4, "full-width"],
+          "showInfo": [1028, "show-info"],
+          "hasContactHelp": [4, "has-contact-help"],
+          "errorText": [1, "error-text"],
+          "inputsOtpState": [32],
+          "showingCode": [32],
+          "inputType": [32],
+          "otpValue": [32],
+          "currentStatus": [32],
+          "clearOtp": [32],
+          "showAlert": [32]
+        },
+        [[0, "eventChangeInputOtp", "changeInput"]]
+      ]
+    ]
+  ],
+  [
+    "p-25423562",
+    [
+      [
+        1,
+        "pichincha-detail-table",
+        {
+          "rows": [1040],
+          "paginationSizes": [1040],
+          "footerContainerInlineStyles": [16],
+          "minToShowPagination": [2, "min-to-show-pagination"],
+          "sizeStart": [2, "size-start"],
+          "resultsNumber": [1026, "results-number"],
+          "pagesNumber": [1026, "pages-number"],
+          "resultsText": [1025, "results-text"],
+          "currentPage": [1026, "current-page"],
+          "paginationSizeOptions": [1040],
+          "optionsPlaceholder": [1025, "options-placeholder"],
+          "badgeMaxWidth": [1, "badge-max-width"],
+          "size": [32]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-13ca0181",
+    [
+      [
+        1,
+        "pichincha-check-list",
+        {
+          "paginationSizes": [1040],
+          "selectedRows": [1040],
+          "rows": [1040],
+          "colorPattern": [1, "color-pattern"],
+          "checkListContainerInlineStyles": [16],
+          "tableInlineStyles": [16],
+          "selectable": [1],
+          "footerContainerInlineStyles": [16],
+          "minToShowPagination": [2, "min-to-show-pagination"],
+          "sizeStart": [2, "size-start"],
+          "showChevron": [4, "show-chevron"],
+          "lazyPagination": [4, "lazy-pagination"],
+          "size": [1026],
+          "resultsNumber": [1026, "results-number"],
+          "pagesNumber": [1026, "pages-number"],
+          "resultsText": [1025, "results-text"],
+          "currentPage": [1026, "current-page"],
+          "optionsPlaceholder": [1025, "options-placeholder"]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-6f2838c4",
+    [
+      [
+        1,
+        "pichincha-modal",
+        {
+          "idElement": [1, "id-element"],
+          "size": [1],
+          "borderHeader": [4, "border-header"],
+          "primaryButtonLabel": [1, "primary-button-label"],
+          "disabledPrimaryButton": [1028, "disabled-primary-button"],
+          "secondaryButtonLabel": [1, "secondary-button-label"],
+          "showCloseButton": [4, "show-close-button"],
+          "open": [1028],
+          "show": [32]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-4b829783",
+    [
+      [
+        1,
+        "selector-option-box",
+        {
+          "disabled": [4],
+          "typeSelection": [1, "type-selection"],
+          "idElement": [1, "id-element"],
+          "value": [1],
+          "selected": [1028],
+          "status": [1],
+          "minHeight": [1, "min-height"],
+          "label": [1],
+          "caption": [1],
+          "align": [1]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-7401962a",
+    [
+      [
+        1,
+        "pichincha-alert-message",
+        {
+          "idElement": [1, "id-element"],
+          "status": [1],
+          "closeTime": [2, "close-time"],
+          "allowClose": [4, "allow-close"],
+          "variant": [1],
+          "top": [2],
+          "adjustIn": [4, "adjust-in"],
+          "open": [1028],
+          "icon": [1],
+          "iconType": [1, "icon-type"],
+          "alertTitle": [1, "alert-title"],
+          "acceptButtonText": [1, "accept-button-text"],
+          "cancelButtonText": [1, "cancel-button-text"]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-beca1ab7",
+    [
+      [
+        1,
+        "pichincha-input-type",
+        {
+          "idElement": [1, "id-element"],
+          "nameElement": [1, "name-element"],
+          "type": [1],
+          "hidePasswordText": [1, "hide-password-text"],
+          "showPasswordText": [1, "show-password-text"],
+          "showPasswordToggle": [4, "show-password-toggle"],
+          "label": [1],
+          "placeholder": [1],
+          "normalHelper": [1, "normal-helper"],
+          "errorHelper": [1, "error-helper"],
+          "value": [1025],
+          "state": [1025],
+          "size": [1],
+          "fullWidth": [4, "full-width"],
+          "maxLength": [2, "max-length"],
+          "filterRegex": [1, "filter-regex"],
+          "tabIndexElement": [2, "tab-index-element"],
+          "showMaxLength": [4, "show-max-length"],
+          "showIconStatus": [4, "show-icon-status"],
+          "customIcon": [1, "custom-icon"],
+          "customIconColor": [1, "custom-icon-color"],
+          "customIconSize": [1, "custom-icon-size"],
+          "customIconType": [1, "custom-icon-type"],
+          "controlEvent": [4, "control-event"],
+          "controlVal": [4, "control-val"],
+          "autofocus": [4],
+          "floatingLabel": [4, "floating-label"],
+          "tooltip": [1025],
+          "tooltipBody": [8, "tooltip-body"],
+          "showTooltipOnChange": [4, "show-tooltip-on-change"],
+          "hideNumberHandles": [4, "hide-number-handles"],
+          "autoComplete": [4, "auto-complete"],
+          "showAutocompleteBox": [4, "show-autocomplete-box"],
+          "autocompleteOptions": [1040],
+          "click_timeout_ms_autocomplete": [2],
+          "autocompleteOpen": [1028, "autocomplete-open"],
+          "dropdownMode": [4, "dropdown-mode"],
+          "list_option_align_autocomplete": [1],
+          "class": [1],
+          "regexValidationMode": [1, "regex-validation-mode"],
+          "inputmode": [1],
+          "pattern": [1],
+          "min": [2],
+          "inlineStyles": [16],
+          "typeOptions": [1040],
+          "typeOptionsOpen": [1028, "type-options-open"],
+          "click_timeout_ms": [2],
+          "hideChevron": [4, "hide-chevron"],
+          "list_option_align": [1],
+          "primary_color_weight": [1],
+          "primary_color": [1],
+          "options_list_width": [1],
+          "autocomplete_options_list_width": [1],
+          "disablePrefix": [4, "disable-prefix"],
+          "icon": [1025],
+          "prefixContainerInlineStyles": [16],
+          "iconPlaceholder": [1025, "icon-placeholder"],
+          "maxLengthActive": [32],
+          "valueItemSelected": [32],
+          "showInputAsText": [32],
+          "showTooltipManually": [32],
+          "isActive": [32],
+          "valueTemp": [32],
+          "caretTemp": [32],
+          "value_type_selected": [32],
+          "optionSelected": [32],
+          "atLeastOneResult": [32],
+          "valueAutocompleteItemSelected": [32]
+        },
+        [
+          [8, "click", "checkForClickOutside"],
+          [8, "click", "checkForClickOutsideAutocomplete"]
+        ]
+      ]
+    ]
+  ],
+  [
+    "p-912bb845",
+    [
+      [
+        1,
+        "pichincha-message-bar",
+        {
+          "idElement": [1, "id-element"],
+          "status": [1],
+          "autoClose": [2, "auto-close"],
+          "allowClose": [4, "allow-close"],
+          "variant": [1],
+          "top": [2],
+          "adjustIn": [4, "adjust-in"],
+          "open": [4],
+          "icon": [1]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-eb423b9e",
+    [
+      [
+        1,
+        "pichincha-table",
+        {
+          "paginationSizes": [1040],
+          "selectedRows": [1040],
+          "headers": [1040],
+          "rows": [1040],
+          "showRowStatus": [4, "show-row-status"],
+          "columnStatusIndex": [2, "column-status-index"],
+          "columnStatusSize": [1, "column-status-size"],
+          "statusMaxWidth": [1025, "status-max-width"],
+          "showActionMenu": [1028, "show-action-menu"],
+          "colorPattern": [1, "color-pattern"],
+          "sizeStart": [2, "size-start"],
+          "statusString": [1, "status-string"],
+          "tableContainerInlineStyles": [16],
+          "tableInlineStyles": [16],
+          "colorBackgroundHeader": [1, "color-background-header"],
+          "colorWeightBackgroundHeader": [1, "color-weight-background-header"],
+          "selectable": [1],
+          "footerContainerInlineStyles": [16],
+          "minToShowPagination": [2, "min-to-show-pagination"],
+          "lazyPagination": [4, "lazy-pagination"],
+          "resultsNumber": [2, "results-number"],
+          "resultsLabel": [1, "results-label"],
+          "externalActionCall": [1028, "external-action-call"],
+          "currentPage": [1026, "current-page"],
+          "size": [1026],
+          "actions": [1040],
+          "pages": [32],
+          "rowsState": [32],
+          "showList": [32]
+        },
+        [
+          [0, "iActionsCall", "manageActionClick"],
+          [0, "moreActions", "onMoreActions"]
+        ]
+      ]
+    ]
+  ],
+  [
+    "p-79560a91",
+    [
+      [
+        1,
+        "pichincha-datepicker",
+        {
+          "div": [1040],
+          "dayu": [1026],
+          "monthu": [1026],
+          "yearu": [1026],
+          "dayf": [1026],
+          "monthf": [1026],
+          "yearf": [1026],
+          "daycalendar": [1040],
+          "stopdays": [1026],
+          "newyear": [1026],
+          "newmonth": [1026],
+          "newmonthup": [1026],
+          "newyearup": [1026],
+          "lastmonth": [1026],
+          "lastyear": [1026],
+          "dateFrom": [1040],
+          "dateUntil": [1040],
+          "locales": [1],
+          "mode": [1025],
+          "includeLegend": [4, "include-legend"],
+          "myClass": [32]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-5291f9e6",
+    [
+      [
+        1,
+        "pichincha-list",
+        {
+          "idElement": [1, "id-element"],
+          "variant": [1],
+          "divided": [4],
+          "iconColor": [1, "icon-color"],
+          "iconWeightColor": [1, "icon-weight-color"],
+          "color": [1],
+          "weightColor": [1, "weight-color"],
+          "data": [1040]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-bbb175f3",
+    [
+      [
+        1,
+        "pichincha-select-list",
+        {
+          "options": [1040],
+          "open": [1028],
+          "container_width": [1025],
+          "list_option_align": [1025],
+          "idElement": [1, "id-element"],
+          "state": [1025],
+          "click_timeout_ms": [1026],
+          "primary_color": [1025],
+          "primary_color_weight": [1025],
+          "fullWidth": [1028, "full-width"],
+          "parentId": [1025, "parent-id"]
+        },
+        [[8, "click", "checkForClickOutside"]]
+      ]
+    ]
+  ],
+  [
+    "p-94ce0351",
+    [
+      [
+        1,
+        "pichincha-selector-box",
+        {
+          "disabled": [4],
+          "idElement": [1, "id-element"],
+          "selected": [4],
+          "value": [1],
+          "icon": [1],
+          "iconType": [1, "icon-type"],
+          "iconSize": [1, "icon-size"],
+          "iconColor": [1, "icon-color"],
+          "iconWeight": [1, "icon-weight"],
+          "label": [1],
+          "caption": [1],
+          "align": [1],
+          "height": [1]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-f0858a21",
+    [
+      [
+        1,
+        "pichincha-validation-text",
+        {
+          "idElement": [1, "id-element"],
+          "nameElement": [1, "name-element"],
+          "class": [1],
+          "text": [1],
+          "tooltip": [1],
+          "showTooltipManually": [4, "show-tooltip-manually"],
+          "isValid": [4, "is-valid"]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-1133e081",
+    [
+      [
+        1,
+        "pichincha-avatar",
+        { "type": [1], "size": [1], "src": [1], "name": [1], "color": [1] }
+      ]
+    ]
+  ],
+  [
+    "p-d03c98bf",
+    [
+      [
+        1,
+        "pichincha-stepper",
+        {
+          "idElement": [1, "id-element"],
+          "steps": [16],
+          "orientation": [1],
+          "activeStep": [2, "active-step"],
+          "horizontalSpacing": [1, "horizontal-spacing"],
+          "verticalSpacing": [1, "vertical-spacing"],
+          "class": [1],
+          "stepInlineStyles": [16],
+          "showLabels": [4, "show-labels"]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-443af284",
+    [
+      [
+        1,
+        "pichincha-brand",
+        { "type": [1], "color": [1], "width": [2], "height": [2] }
+      ]
+    ]
+  ],
+  [
+    "p-2158bb74",
+    [
+      [
+        1,
+        "pichincha-switch",
+        {
+          "idElement": [1, "id-element"],
+          "disabled": [4],
+          "sdisabled": [4],
+          "value": [1],
+          "checked": [4],
+          "labelBefore": [4, "label-before"]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-3fbbe636",
+    [
+      [
+        6,
+        "pichincha-tab",
+        {
+          "name": [1],
+          "active": [1028],
+          "tabLabelInlineStyles": [1040],
+          "contentInlineStyles": [1040],
+          "fillContent": [1028, "fill-content"],
+          "disabled": [1028],
+          "tabsStyle": [1025, "tabs-style"]
+        },
+        [[0, "click", "handleClick"]]
+      ]
+    ]
+  ],
+  [
+    "p-c247bdcb",
+    [[6, "pichincha-tab-content", { "name": [1], "active": [1028] }]]
+  ],
+  [
+    "p-f3582f62",
+    [
+      [
+        6,
+        "pichincha-tabs",
+        {
+          "activetab": [1025],
+          "tabsStyle": [1, "tabs-style"],
+          "fillContent": [4, "fill-content"],
+          "addDefaultContainerClass": [4, "add-default-container-class"]
+        },
+        [[0, "tabActivate", "handleTabActivate"]]
+      ]
+    ]
+  ],
+  [
+    "p-e715f6c5",
+    [
+      [
+        1,
+        "pichincha-otp-timer",
+        {
+          "timer": [1026],
+          "status": [1025],
+          "errorCode": [1025, "error-code"],
+          "stateResend": [1025, "state-resend"],
+          "timerText": [1025, "timer-text"],
+          "textResendCode": [1025, "text-resend-code"],
+          "textCodeSent": [1025, "text-code-sent"],
+          "textResendingCode": [1025, "text-resending-code"],
+          "componentOtp": [32],
+          "showErrorMsg": [32],
+          "showSuccessMsg": [32]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-145f8fae",
+    [
+      [
+        1,
+        "badge-table",
+        {
+          "status": [1],
+          "statusMaxWidth": [1, "status-max-width"],
+          "showActionMenu": [4, "show-action-menu"],
+          "statusLabel": [1, "status-label"],
+          "actions": [16],
+          "externalActionCall": [1028, "external-action-call"],
+          "row": [16],
+          "showActions": [32]
+        },
+        [[8, "click", "checkForClickOutside"]]
+      ]
+    ]
+  ],
+  [
+    "p-970a492b",
+    [
+      [
+        1,
+        "pichincha-badge",
+        {
+          "status": [1],
+          "maxWidth": [1, "max-width"],
+          "statusLabel": [1025, "status-label"]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-f39052a1",
+    [
+      [
+        1,
+        "pichincha-pagination",
+        {
+          "resultsNumber": [1026, "results-number"],
+          "pagesNumber": [1026, "pages-number"],
+          "resultsText": [1025, "results-text"],
+          "currentPage": [1026, "current-page"],
+          "paginationSizeOptions": [1040],
+          "optionsPlaceholder": [1025, "options-placeholder"],
+          "containerInlineStyles": [1040]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-5b98609a",
+    [
+      [
+        1,
+        "pichincha-check-box",
+        {
+          "idElement": [1, "id-element"],
+          "nameElement": [1, "name-element"],
+          "disabled": [4],
+          "value": [1],
+          "checked": [1028]
+        }
+      ],
+      [
+        1,
+        "pichincha-radio-buttom",
+        {
+          "idElement": [1, "id-element"],
+          "nameElement": [1, "name-element"],
+          "disabled": [4],
+          "value": [1],
+          "checked": [4]
+        }
+      ],
+      [
+        6,
+        "radio-buttom-container",
+        { "nameRadio": [1, "name-radio"], "checked": [1] },
+        [[0, "clickRadio", "handleClick"]]
+      ]
+    ]
+  ],
+  [
+    "p-2d04edcc",
+    [
+      [
+        1,
+        "pichincha-grid",
+        {
+          "align_content": [1],
+          "align_items": [1],
+          "container": [4],
+          "direction": [1],
+          "item": [4],
+          "justify": [1],
+          "lg": [8],
+          "md": [8],
+          "sm": [8],
+          "wrap": [1],
+          "xl": [8],
+          "xs": [8],
+          "spacing": [8]
+        }
+      ]
+    ]
+  ],
+  [
+    "p-2d7d7701",
+    [
+      [
+        1,
+        "pichincha-otp-input",
+        {
+          "textInput": [1, "text-input"],
+          "disabled": [4],
+          "boxs": [2],
+          "clearOtp": [4, "clear-otp"],
+          "status": [1],
+          "type": [1],
+          "inputsOtpState": [32],
+          "inputsRefs": [32],
+          "pasteElement": [32],
+          "componentOtp": [32]
+        },
+        [[0, "iPaste", "pasteInput"]]
+      ],
+      [
+        1,
+        "pichincha-link",
+        {
+          "idElement": [1, "id-element"],
+          "href": [1],
+          "display": [1],
+          "disabled": [4],
+          "target": [1],
+          "inline_styles": [16],
+          "variant": [1],
+          "align": [1],
+          "weight": [1],
+          "color": [1]
+        }
+      ]
+    ]
+  ]
+]
