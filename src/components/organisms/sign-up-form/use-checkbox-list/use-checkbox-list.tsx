@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export const useCheckboxList = () => {
   const [categoryValues, setCategoryValues] = useState<string[]>([]);
@@ -14,15 +14,15 @@ export const useCheckboxList = () => {
     });
   };
 
-  const handleCheckboxClick = (e: Event) => {
+  const handleCheckboxClick = useCallback((e: Event) => {
     const target = e.target as HTMLElement;
     const value = target.getAttribute("value");
-    const checked = target.getAttribute("checked"); 
+    const checked = target.getAttribute("checked");
 
     if (value) {
       handleCategoriesChange(value, checked === "true" ? false : true);
     }
-  };
+  }, []);
 
   useEffect(() => {
     const checkboxes = document.querySelectorAll(
@@ -37,7 +37,7 @@ export const useCheckboxList = () => {
         checkbox.removeEventListener("click", handleCheckboxClick);
       });
     };
-  }, []);
+  }, [handleCheckboxClick]);
 
   useEffect(() => {
     if (categoryValues.length < 3) {

@@ -6,7 +6,7 @@ import { Link } from "../../atoms/link/link";
 import { Typography } from "../../atoms/typography/typography";
 import { Checkbox } from "../../atoms/checkbox/checkbox";
 import { useCheckboxList } from "./use-checkbox-list/use-checkbox-list";
-import { useCheckUser } from "../../../hooks/use-check-username/use-check-username";
+import useCheckUser from "../../../hooks/use-check-username/use-check-username";
 import { useCheckPassword } from "../../../hooks/use-check-password/use-check-password";
 import { useCheckEmail } from "../../../hooks/use-check-email/use-check-email";
 import "./sign-up-form.scss";
@@ -24,20 +24,19 @@ export const SignUpForm: FC = () => {
   const { passwordErrorMessage } = useCheckPassword(password);
   const { emailErrorMessage } = useCheckEmail(email, true);
 
-  const handleSignUp = async () => {
-    console.log("here", categoryValues);
+  const handleSignUp = async () => { 
     let inputUsername = document
       .querySelector('[id-element="username"]')
       ?.getAttribute("value");
-    if (inputUsername == null || inputUsername == undefined) inputUsername = "";
+    if (inputUsername === null || inputUsername === undefined) inputUsername = "";
     let inputEmail = document
       .querySelector('[id-element="email"]')
       ?.getAttribute("value");
-    if (inputEmail == null || inputEmail == undefined) inputEmail = "";
+    if (inputEmail === null || inputEmail === undefined) inputEmail = "";
     let inputPassword = document
       .querySelector('[id-element="password"]')
       ?.getAttribute("value");
-    if (inputPassword == null || inputPassword == undefined) inputPassword = "";
+    if (inputPassword === null || inputPassword === undefined) inputPassword = "";
     const checkboxes = document.querySelectorAll(
       ".sign-up-form__categories-list .sign-up-form__categories-checkbox"
     );
@@ -45,7 +44,7 @@ export const SignUpForm: FC = () => {
     checkboxes.forEach((checkbox) => {
       let value = checkbox.getAttribute("value");
       let checked = checkbox.getAttribute("checked");
-      if (checked == "true") {
+      if (checked === "true") {
         categoriesValuesInteger.push(value ? parseInt(value) : -1);
       }
     });
@@ -71,7 +70,7 @@ export const SignUpForm: FC = () => {
     } else {
       setConfirmPasswordErrorMessage("");
     }
-  }, [confirmPassword]);
+  }, [confirmPassword, password]);
 
   return (
     <Form className="sign-up-form form">
@@ -87,7 +86,7 @@ export const SignUpForm: FC = () => {
       <Input
         idElement="username"
         size="medium"
-        state={userErrorMessage == "" ? "normal" : "error"}
+        state={userErrorMessage === "" ? "normal" : "error"}
         error-helper={userErrorMessage}
         value={username}
         onChange={setUsername}
@@ -100,7 +99,7 @@ export const SignUpForm: FC = () => {
       <Input
         idElement="email"
         size="medium"
-        state={emailErrorMessage == "" ? "normal" : "error"}
+        state={emailErrorMessage === "" ? "normal" : "error"}
         error-helper={emailErrorMessage}
         value={email}
         onChange={setEmail}
@@ -114,7 +113,7 @@ export const SignUpForm: FC = () => {
       <Input
         idElement="password"
         size="medium"
-        state={passwordErrorMessage == "" ? "normal" : "error"}
+        state={passwordErrorMessage === "" ? "normal" : "error"}
         error-helper={passwordErrorMessage}
         value={password}
         onChange={setPassword}
@@ -198,6 +197,7 @@ export const SignUpForm: FC = () => {
           Iniciar sesión
         </Link>
         <Button
+        id="sign-up-form__button"
           disabled={Boolean(
             userErrorMessage ||
               emailErrorMessage ||

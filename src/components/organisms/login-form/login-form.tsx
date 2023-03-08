@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, useState } from "react";
 
 import { Form } from "../../molecules/form/form";
 import { Input } from "../../atoms/input/input";
@@ -6,7 +6,7 @@ import { Button } from "../../atoms/button/button";
 import { Link } from "../../atoms/link/link";
 import { Typography } from "../../atoms/typography/typography";
 import "./login-form.scss";
-import { useCheckUser } from "../../../hooks/use-check-username/use-check-username";
+import  useCheckUser from "../../../hooks/use-check-username/use-check-username";
 import { useCheckPassword } from "../../../hooks/use-check-password/use-check-password";
 import { login } from "../../../services/login";
 
@@ -16,23 +16,22 @@ export const LoginForm: FC = () => {
   const { userErrorMessage } = useCheckUser(username, true, true);
   const { passwordErrorMessage } = useCheckPassword(password);
 
-  const handleLogin = async () => {
-    console.log("here");
+  const handleLogin = async () => { 
     let inputUsername = document
       .querySelector('[id-element="username"]')
       ?.getAttribute("value");
-    if (inputUsername == null || inputUsername == undefined) inputUsername = "";
+    if (inputUsername === null || inputUsername === undefined) inputUsername = "";
     let inputPassword = document
       .querySelector('[id-element="password"]')
       ?.getAttribute("value");
-    if (inputPassword == null || inputPassword == undefined) inputPassword = "";
+    if (inputPassword === null || inputPassword === undefined) inputPassword = "";
     const data = await login({
       username: inputUsername,
       password: inputPassword,
     });
     if (data) {
       // handle successful login
-      console.log("login successful");
+      //console.log("login successful");
     } else {
       // handle login error
     }
@@ -47,7 +46,7 @@ export const LoginForm: FC = () => {
       <Input
         idElement="username"
         size="medium"
-        state={userErrorMessage == "" ? "normal" : "error"}
+        state={userErrorMessage === "" ? "normal" : "error"}
         error-helper={userErrorMessage}
         value={username}
         onChange={setUsername}
@@ -60,7 +59,7 @@ export const LoginForm: FC = () => {
       <Input
         idElement="password"
         size="medium"
-        state={passwordErrorMessage == "" ? "normal" : "error"}
+        state={passwordErrorMessage === "" ? "normal" : "error"}
         error-helper={passwordErrorMessage}
         value={password}
         onChange={setPassword}
@@ -79,7 +78,7 @@ export const LoginForm: FC = () => {
           disabled={Boolean(userErrorMessage || passwordErrorMessage)}
           size="medium"
           color="primary"
-          idelement="button"
+          id="button"
           onClick={handleLogin}
         >
           Iniciar Sesión

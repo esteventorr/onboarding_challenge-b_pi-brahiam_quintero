@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef } from "react";
+import { FC } from "react";
 import fromReactToWebComponentProps from "../../../utils/ds-utils";
 
 export const Checkbox: FC<PichinchaCheckboxHTMLAttributes> = ({ ...rest }) => {

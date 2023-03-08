@@ -2,7 +2,7 @@
   &__categories-list {
     display: flex; 
     flex-direction: column;
-    align-items: start;    
+    align-items: flex-start;    
     & label {
         margin: 10px 0;
     }

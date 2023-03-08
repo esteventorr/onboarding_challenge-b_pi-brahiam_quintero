@@ -77,7 +77,7 @@ interface PichinchaButtonHTMLAttributes {
   disabled?: boolean;
   href?: string;
   type?: string;
-  idelement?: string;
+  id?: string;
   loading?: boolean;
   size?: "medium" | "small" | "large" | "extra-large" = "large";
   tabIndexInner?: number;

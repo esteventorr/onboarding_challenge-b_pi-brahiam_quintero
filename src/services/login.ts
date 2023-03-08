@@ -1,3 +1,5 @@
+import { API_URL } from "../config/config";
+
 type LoginCredentials = {
   username: string;
   password: string;
@@ -6,7 +8,7 @@ type LoginCredentials = {
 export const login = async (
   credentials: LoginCredentials
 ): Promise<boolean> => {
-  const response = await fetch("http://192.168.1.6:3001/users/login", {
+  const response = await fetch(`${API_URL}/users/login`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

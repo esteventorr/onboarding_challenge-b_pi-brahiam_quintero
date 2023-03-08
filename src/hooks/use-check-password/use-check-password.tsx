@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 
 export const useCheckPassword = (password: string) => {
-  const regexMayuscula = /[A-Z]/;
-  const regexNumero = /\d/;
-  const regexEspecial = /[!@#$%^&*(),.?":{}|<>]/;
-
   const [passwordErrorMessage, setPasswordErrorMessage] = useState("");
 
   useEffect(() => {
+    const regexMayuscula = /[A-Z]/;
+    const regexNumero = /\d/;
+    const regexEspecial = /[!@#$%^&*(),.?":{}|<>]/;
+
     const checkUserExists = async () => {
       setPasswordErrorMessage("");
       try {

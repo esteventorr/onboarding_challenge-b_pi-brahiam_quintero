@@ -51,5 +51,8 @@
       "!src/index.tsx",
       "!src/reportWebVitals.ts"
     ]
+  },
+  "devDependencies": {
+    "msw": "^1.1.0"
   }
 }
